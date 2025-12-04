@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Name */}
           <Link href="/" className="text-2xl font-bold hover:text-blue-400">
-            Your Name
+            Aaron Lopez
           </Link>
           
           {/* Navigation links */}
