@@ -10,18 +10,6 @@ export default function Home() {
           I am an Associate at Launchpad Philly. I like to draw and play video games.
         </p>
 
-
-
-        <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 text-left">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">
-            📝 TODO: Customize Your Homepage
-          </h2>
-          <ul className="space-y-2 text-blue-800">
-            <li>✏️ Choose your own color scheme</li>
-            <li>✏️ Make it responsive for mobile devices</li>
-          </ul>
-        </div>
-
         <div className="mt-8 p-4 bg-yellow-50 border-2 border-yellow-200 rounded-lg">
           <p className="text-yellow-900 font-semibold">
             💡 Tip: Check the README.md for detailed instructions and examples!

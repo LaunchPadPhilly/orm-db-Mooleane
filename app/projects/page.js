@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ProjectForm from './components/ProjectForm';
 
 export default function Projects() {
   // TODO: Students will implement the following:
@@ -15,7 +16,7 @@ export default function Projects() {
   return (
     <div className="min-h-screen p-8">
       <div className="max-w-6xl mx-auto">
-        {/* Header - students will add "Add New Project" button here */}
+        <ProjectForm />
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-4">
           <h1 className="text-5xl font-bold">My Projects</h1>
           {/* TODO: Add "Add New Project" button that shows/hides the form */}
